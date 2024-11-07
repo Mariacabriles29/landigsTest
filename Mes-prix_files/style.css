@@ -1,0 +1,104 @@
+.product-info__inner {
+    text-align: center;
+}
+a.kalles_custom_add_to_cart {
+    background: #2C2C2C;
+    color: #EEE;
+    line-height: 40px;
+    height: 40px;
+    font-weight: 400;
+    display: inline-block;
+    padding: 0;
+    font-size: 14px;
+    margin: 10px 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    width: 100%;
+    -webkit-box-shadow: 1px 1px 1px rgb(0 0 0 / 10%);
+    box-shadow: 1px 1px 1px rgb(0 0 0 / 10%);
+    border-radius: 40px;
+    text-transform: uppercase;
+}
+a.kalles_custom_add_to_cart:hover {
+    background: #000;
+     color: #fff;
+}
+div .products .product-title a {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* number of lines to show */
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    height: 40px;
+	line-height: 20px;
+}
+
+body .icon_on_hover.product .kalles-btn-tools {
+    display: none;
+}
+body .product .product-image:hover a.db::before {
+    display: none;
+}
+
+body .product .product-info div.ryviu-collection {
+    display: none;
+} 
+
+.kallesProBrands {
+    color: #56cfe1;
+	height: 35px;
+}
+/* ck css */
+.shop-top-sidebar {
+    display: none;
+}
+.sortby_pick {
+    width: 100%;
+    max-width: 270px;
+}
+.cat_sortby.cat_sortby_js.tr.dn.db_lg.col {
+    text-align: left;
+}
+.cat_filter.col {
+    display: none;
+}
+body .wrap_sortby {
+    left: 0;
+    right: auto;
+}
+@media only screen and (max-width:1024px){
+    .result-count-order a::after {
+        position: absolute;
+        content: 'Filters';
+        font-size: 14px;
+        right: 0;
+        top: -4px;
+    }
+    .result-count-order a {
+        color: #878787;
+        font-size: 0;
+        position: relative;
+        padding-right: 35px;
+    }
+    .mfp-content .product-list-slidebar>.h3::after {
+        position: absolute;
+        content: 'Filters';
+        font-size: 16px;
+    }
+    .mfp-content .product-list-slidebar>.h3 {
+        font-size: 0;
+        position: relative;
+    }
+}
+/*  ck css */
+/* .sidebar.dn {
+    display: block;
+}
+
+.sortby_pick {
+    width: 100%; 
+} */
