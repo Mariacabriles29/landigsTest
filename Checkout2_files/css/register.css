@@ -1,0 +1,58 @@
+.expiry-date .form-group,
+.date {
+  display: none !important;
+}
+.controls {
+  max-width: 100% !important;
+}
+
+.icon-name {
+  position: absolute;
+  cursor: pointer;
+  height: 22px;
+  max-height: 22px;
+  width: 22px;
+  max-width: 22px;
+  top: 16px;
+  left: 232.656px;
+  z-index: auto;
+  color: rgb(215, 64, 58);
+}
+.icon-titular {
+  position: absolute;
+  cursor: pointer;
+  height: 22px;
+  max-height: 22px;
+  width: 22px;
+  max-width: 22px;
+  top: -28px;
+  left: 314.991px;
+  z-index: 999;
+  color: rgb(215, 64, 58);
+}
+@media (min-width:980px) and (max-width:1300px){
+    .icon-name{
+        top:8px;
+    }
+}
+@media (min-width:780px) and (max-width:980px){
+    .icon-name{
+       top:10px;
+       left:208.656px; 
+    }
+    .icon-titular{
+        left:272.991px;
+
+    }
+
+}
+@media (min-width: 600px) and (max-width: 769px) {
+  .icon-name {
+    top: 8px !important;
+    left: 206.655px !important;
+  }
+  .icon-titular{
+    top: -27px;
+    left: 269.991px;
+  }
+}
